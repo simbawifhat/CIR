@@ -3,8 +3,8 @@ from flask import Flask
 app = Flask(__name__)
 
 # Token Data
-TOTAL_SUPPLY = 10_000_000_000  # 10 billion total
-CIRCULATING_SUPPLY = 8_912_906_014.98  # Circulating supply
+TOTAL_SUPPLY = 8_912_766_789.71  # 10 billion total
+CIRCULATING_SUPPLY = 8_912_766_789.71  # Circulating supply
 
 # Total Supply Endpoint
 @app.route('/total-supply', methods=['GET'])
